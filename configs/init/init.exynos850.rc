@@ -98,13 +98,13 @@ on init
     chmod 0664 /dev/cpuset/tasks
     
     # for power hal
-    chown system radio /dev/cluster0_freq_min
-    chown system radio /dev/cluster0_freq_max
-    chown system radio /dev/cluster1_freq_min
-    chown system radio /dev/cluster1_freq_max
-    chown system radio /dev/cluster2_freq_min
-    chown system radio /dev/cluster2_freq_max
-    chown system radio /dev/cpu_dma_latency
+    chown system system /dev/cluster0_freq_min
+    chown system system /dev/cluster0_freq_max
+    chown system system /dev/cluster1_freq_min
+    chown system system /dev/cluster1_freq_max
+    chown system system /dev/cluster2_freq_min
+    chown system system /dev/cluster2_freq_max
+    chown system system /dev/cpu_dma_latency
     chmod 0664 /dev/cluster0_freq_min
     chmod 0664 /dev/cluster0_freq_max
     chmod 0664 /dev/cluster1_freq_min
